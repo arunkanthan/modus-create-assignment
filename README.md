@@ -210,10 +210,17 @@ Non Functional tests
 
 Instructions for running tests :
 --------------------------------
+
+Folders and Files added - e2e(folder), tsconfig.json, package.json
+
+Execution Steps:
+----------------
+*************
 prerequisite - Budget App is running on locahost port 3000
+*************
 1. Clone github repository
 2. Run npm install to install dependent libraries
-3. Run test suite using 'npm run e2e' command from root folder "modus-create-assignment"
+3. Run test suite using 'npm run e2e' command from root folder "modus-create-assignment". Results can be found in 'e2e/reports'
 Please see below for troubleshooting info if you are facing any issues.
 **Common errors and fixes:**
 ---------------------------
