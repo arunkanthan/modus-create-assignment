@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className=""
+>
+  <a
+    aria-label="Fork ModusCreateOrg/budgeting on GitHub"
+    className="github-button"
+    data-icon="octicon-repo-forked"
+    data-show-count={true}
+    data-size="large"
+    href="https://github.com/ModusCreateOrg/budgeting/fork"
+  >
+    Fork
+  </a>
+</div>
+`;
