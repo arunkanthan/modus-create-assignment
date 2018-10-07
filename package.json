@@ -21,7 +21,7 @@
     "update-types": "flow-typed install",
     "flow": "flow",
     "dll": "webpack --config webpack.config.dll.js",
-    "postinstall": "rimraf .cache-loader & npm run dll",
+    "postinstall": "rimraf .cache-loader & npm run dll & webdriver-manager update",
     "e2e": "protractor e2e/e2e-conf.js"
   },
   "devDependencies": {
