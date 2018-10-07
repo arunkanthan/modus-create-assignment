@@ -213,5 +213,9 @@ Instructions for running tests :
 prerequisite - Budget App is running on locahost port 3000
 1. Clone github repository
 2. Run npm install to install dependent libraries
-3. If you get webdriver error - run comand "webdriver-manager update" from "modus-create-assignment\node_modules\protractor\node_modules\.bin"
 3. Run test suite using 'npm run e2e' command from root folder "modus-create-assignment"
+Please see below for troubleshooting info if you are facing any issues.
+**Common errors and fixes:**
+---------------------------
+1. If you get webdriver error at step3 - run comand "webdriver-manager update" from "modus-create-assignment\node_modules\protractor\node_modules\.bin"
+2. If you get "Cannot GET /" error, try to rebuild the budgeting App
